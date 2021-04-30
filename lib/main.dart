@@ -1,7 +1,9 @@
+import 'package:course_skill_tree/paint_app.dart';
 import 'package:flutter/material.dart';
+import 'package:course_skill_tree/canvas_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(CustomPaintingApp());
 }
 
 class MyApp extends StatelessWidget {
