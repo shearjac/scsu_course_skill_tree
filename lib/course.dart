@@ -1,6 +1,8 @@
 
 import 'dart:ui';
 
+import 'package:flutter/rendering.dart';
+
 class Course {
   String name;
   String department;
@@ -39,5 +41,10 @@ class Course {
 
   List<Course> getPrerequisites() {
     return List.from(this.prerequisites);
+  }
+
+  String toString() {
+    String str = this.department + " " + this.number;
+    return str;
   }
 }
